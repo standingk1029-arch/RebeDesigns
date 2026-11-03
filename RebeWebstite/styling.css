@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Spray+Paint&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Spray+Paint&family=Rubik+Storm&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Freckle+Face&family=Rubik+Spray+Paint&family=Rubik+Storm&display=swap');
+
+
+.homebutton {
+    display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            gap: 50px;
+            vertical-align: top;
+            transition: .15s;
+            color: #894f8e;
+            
+}
+.bookingbutton {
+    display: flex;
+        max-width: 500px;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            gap: 50px;
+            vertical-align: top;
+            transition: .15s;
+            color: #894f8e;
+            font-family: fantasy;
+            
+            
+}
+
+.tattoosbutton {
+    display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            gap: 50px;
+            vertical-align: top;
+            transition: .15s;
+            color: #894f8e;
+}
+
+.piercingbutton {
+    display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            gap: 50px;
+            vertical-align: top;
+            transition: .15s;
+            color: #894f8e;
+}
+
+.aboutbutton {
+    display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            gap: 50px;
+            vertical-align: top;
+            transition: .15s;
+            color: #894f8e;
+}
+.homebutton:hover {
+    transform: scale(1.08)
+
+}
+
+.bookingbutton:hover {
+    transform: scale(1.08);
+}
+
+.tattoosbutton:hover{
+    transform: scale(1.08);
+}
+
+.piercingbutton:hover{
+    transform: scale(1.08);
+}
+
+.aboutbutton:hover{
+    transform: scale(1.08);
+}
+
+ .bio-body a {
+            font-family: 'freckle face', cursive;
+            font-size: 25px;
+            color: #8d8c5e;
+            letter-spacing: 2px;
+            text-decoration: none;
+            margin-left: 26px;
+        }
+
+        .bio-body a:hover {
+            color: #9a4d84;
+            transform: scale(.95);
+        }
+
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+    margin-top: 10px;
+    background-color: #e4c1dd;
+    height: 10vh;
+}
+.header-buttons a {
+    display: flex;
+    font-size: 46px;
+    font-family: 'freckle face', cursive;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    height: 5vh;
+    color: #b7878a;
+    transition: .15s;
+    text-decoration: none;
+    flex-direction: row;
+    
+}
+
+a:hover {
+    color: #b38286;
+}
+
+a:active{
+    color: #5c3952;
+    transform: scale(.85);
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    vertical-align: top;
+    transition: .13s;
+    background-color: none;
+    border: none;
+
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.flex-container-2{
+    display: flex;
+
+}
+.text-box {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+    color: #e8b7ba;
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+/* Container that holds the video and any overlay content */
+.video-container {
+  position: relative;
+  width: 43%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  margin-left: 50px;
+}
+
+/* The actual video element */
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transform: translate(-50%, -50%);
+  z-index: -1; /
+}
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: rgb(226, 222, 206);
+  text-align: center;
+}
+
+.social-icons:hover {
+    transform: scale(1.1);
+
+}
+
+body {
+    background-color: #ffc800;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid-tattoo-images {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: top;
+   justify-content: center;
+   max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    
+transition: .15s;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.grid-tattoo-images img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.videotattoocontainer{
+    display: flex;
+    height: 90vh;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+}
+
+.video1{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 67px;
+    color: #ba8aa2;
+}
+
+.gallery-wrapper {
+  display: flex;
+  align-items: center;
+    justify-content: flex-start;
+  gap: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
+  width:100%;
+  height: 100%;
+  background-color: #fae8e8;
+  border:#e3b9c7 solid 15px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* Ensures smooth transition steps */
+}
+
+.gallery-wrapper img {
+  width: 450px;
+  height: 350px;
+  object-fit: contain;
+  border-radius: 15px;
+  flex-shrink: 0; 
+    padding: 20px;
+    border: 10px solid #eaa5bc;
+    border-radius: 20px;
+    cursor: zoom-in;
+    transition: transform 0.2s ease;
+}
+
+.gallery-wrapper img:active {
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    width: min(90vw, 1000px);
+    height: min(90vh, 800px);
+    padding: 20px;
+    background: #fae8e8;
+    border: 10px solid #eaa5bc;
+    box-shadow: 0 0 0 100vmax rgb(0 0 0 / 65%);
+    transform: translate(-50%, -50%);
+    cursor: zoom-out;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    
+}
+
+.title-box h1 {
+    font-family: rubik spray paint;
+    font-size: 67px;
+    color: #a54ec7;
+}
+
+.Description-box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.BookingBotton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.image-box img {
+    max-width:  520px;
+    max-height: 520px;
+}
+   .bigpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+
+   /* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fcfcfc;
+    color: #222;
+    min-height: 100vh;
+}
+
+/* Split Layout Container */
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Left Column (Image) */
+.image-hero {
+    flex: 1;
+    background-color: hsla(0, 0%, 92%, 0); /* Fallback color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.featured-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Keeps image sharp and perfectly cropped to fill the left side */
+    border: solid 20px #a55f5f;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* Right Column (Statement) */
+.statement-hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    background-color: #f3ebeb;
+    border:#dfb3c2 solid 10px;
+    border-radius: 20px;
+}
+
+.content-wrapper {
+    max-width: 650px;
+}
+
+.content-wrapper h1 {
+    font-size: 90px;
+    margin-bottom: 16px;
+    color: #cf85af;
+    font-family: 'freckle face', cursive;
+    border-bottom: 4px solid #9b47ac;
+}
+
+.content-wrapper p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #584141;
+    margin-bottom: 34px;
+    
+}
+.artist-name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.artist-title {
+    font-size: 1.1rem;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 2rem 0;
+    width: 50px;
+}
+
+.artist-statement {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 2.5rem;
+}
+
+/* Call to Action Button */
+.cta-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    border: 4px solid #6d1c7d;
+    border-radius: 12px;
+    background-color: #d9bed4;
+
+}
+
+.cta-btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stacks image on top, text below on mobile */
+    }
+
+    .image-hero {
+        height: 50vh; /* Takes up top half of screen */
+    }
+
+    .statement-hero {
+        padding: 2.5rem 1.5rem;
+    }
+}
+
+.Headerabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #d09fc5;
+    border: 6px solid #9b47ac;
+    border-radius: 32px;
+}
+
+.Headerabout h1 {
+    font-family: 'freckle face', cursive;
+    font-size: 67px;
+    color: #6e4d7c;
+    letter-spacing: 6px;
+}
+
+.bio-body {
+   background-color: #efe9ed;
+   border: 18px solid #b784c2;
+   
+}
+
+.bio-body p {
+    font-family: 'freckle face', cursive;
+    font-size: 24px;
+    color: #8e5ba4;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    
+}
+
+.bio-body h1 {
+    font-family: 'freckle face', cursive;
+    font-size: 65px;
+    color: #603373;
+    letter-spacing: 5px;
+    
+}
+
+ /* The container that holds both the image and the text */
+        .container {
+            display: flex;
+            align-items: center; /* Aligns items vertically in the center */
+            gap: 30px;           /* Adds space between the image and the text */
+            max-width: 1530px;    /* Limits the width of the layout */
+            margin: 30px auto;   /* Centers the container on the page */
+            padding: 10px;
+            background-color: #e0d3e3;
+            border: 10px solid #ceb4d4;
+            border-radius: 20px;   /* Optional: rounds the corners of the container */
+        }
+
+        /* Styling for the image side */
+        .image-side img {
+            max-width: 100%px;    /* Controls the width of your image */
+            width: 100%;         /* Makes the image responsive */
+            height: auto;        /* Maintains the aspect ratio */
+            
+            border: 10px solid #4a158a33;
+            border-radius: 360px;  /* Optional: rounds the corners of the image */
+            margin-left: 20px; /* Optional: adds space to the left of the image */
+        }
+
+        /* Styling for the text side */
+        .text-side {
+            display: flex;
+            flex-direction: column; /* Stacks the text boxes vertically */
+            gap: 17px;              /* Adds space between each text box */
+            flex: 1;                /* Allows the text side to take up the remaining space */
+        }
+
+        /* Styling for the individual text boxes */
+        .text-box {
+            background-color: #fcf4ff;
+            padding: 60px;
+            border-radius: 5px;
+            border-left: 5px solid #836ead; /* Optional: adds a stylish left border */
+        }
+
+        /* Responsive design: stacks items vertically on small screens (phones) */
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .image-side img {
+                max-width: 100%; /* Lets the image take full width on mobile */
+            }
+        }
+
+        .bio-body h3 {
+            font-family: 'freckle face', cursive;
+            font-size: 30px;
+            color: #603373;
+            letter-spacing: 5px;
+            
+        }
+
+       
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+    
+}
+
+.resume-container h1 {
+    font-size: 90px;
+    margin-bottom: 46px;
+    color: #cf85af;
+    font-family: 'freckle face', cursive;
+    border-bottom: 4px solid #9b47ac;
+}
+
+.resume-body {
+  
+  background-color: #f3ebeb;
+    border:#dfb3c2 solid 10px;
+    border-radius: 20px;
+}
